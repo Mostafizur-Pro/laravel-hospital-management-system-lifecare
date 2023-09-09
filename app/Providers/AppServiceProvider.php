@@ -2,7 +2,12 @@
 
 namespace App\Providers;
 
+
+
+use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Session;
+use App\Models\User;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -24,5 +29,12 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        View::composer('*', function ($view) {
+            if (Session::has('loginId')) {
+                $userId = Session::get('loginId');
+                $data = User::find($userId); // Retrieve user data by the loginId from the session
+                $view->with('data', $data);
+            }
+        });
     }
 }

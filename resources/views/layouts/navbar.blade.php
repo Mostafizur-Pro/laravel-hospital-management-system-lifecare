@@ -8,9 +8,14 @@
 
         <li><a href="{{url('/')}}">Home</a></li>
         <li><a href="{{url('/service')}}">Service</a></li>
-        <li><a href="{{url('/docters')}}">Doctors</a></li>
+        <li><a href="{{url('/doctors')}}">Doctors</a></li>
         <li><a href="{{url('/departments')}}">Departments</a></li>
         <li><a href="{{url('/about')}}">About us</a></li>
+        
+        <li><a href="{{url('/dashboard')}}">Dashboard</a></li>
+        
+
+        
         <!-- <li><a href="{{url('/contact')}}">contact</a></li>
         <li>
           <a>SOLUTION</a>
@@ -25,17 +30,20 @@
     <a href="{{url('/')}}" class="btn btn-ghost normal-case text-xl">
     <img class='w-32' src="{{url('assets/logo/logo2.png')}}" alt="image"/>
     <!-- Life & Care -->
-
-
     </a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1 ">
     <li><a href="{{url('/')}}">Home</a></li>
         <li><a href="{{url('/service')}}">Service</a></li>
-        <li><a href="{{url('/docters')}}">Doctors</a></li>
+        <li><a href="{{url('/doctors')}}">Doctors</a></li>
         <li><a href="{{url('/departments')}}">Departments</a></li>
         <li><a href="{{url('/about')}}">About us</a></li>
+      
+        <li><a href="{{url('/dashboard')}}">Dashboard</a></li>
+      
+      
+        
       <!-- <li tabindex="0">
         <details>
           <summary>SOLUTION</summary>
@@ -48,5 +56,10 @@
       <li><a href="{{url('/product')}}">PRODUCT</a></li> -->
     </ul>
   </div>
- 
+
+
+  <div class="navbar-end">
+  <a href="{{url('/login')}}">Login</a>
+  </div>
+
 </div>

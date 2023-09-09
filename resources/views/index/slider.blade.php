@@ -17,8 +17,8 @@
                         <br />
                         But by becoming a doctor, I can help my whole country</p>
                         <div class="mt-5">
-                            <button class="btn btn-accent"><a href="{{url('/about')}}">About Us</a></button>
-                            <button class="btn btn-outline btn-accent ml-5"><a href="{{url('/service')}}">Our Services</a></button>
+                            <button class="btn btn-accent text-white"><a href="{{url('/about')}}">About Us</a></button>
+                            <button class="btn btn-outline btn-accent ml-5 "><a class="hover:text-white" href="{{url('/service')}}">Our Services</a></button>
                         </div>
                 </div>
             </div>
@@ -49,8 +49,8 @@
                         <br />
                         But by becoming a doctor, I can help my whole country</p>
                         <div class="mt-5">
-                            <button class="btn btn-accent"><a href="{{url('/about')}}">About Us</a></button>
-                            <button class="btn btn-outline btn-accent ml-5"><a href="{{url('/service')}}">Our Services</a></button>
+                            <button class="btn btn-accent text-white"><a href="{{url('/about')}}">About Us</a></button>
+                            <button class="btn btn-outline btn-accent ml-5 "><a class="hover:text-white" href="{{url('/service')}}">Our Services</a></button>
                         </div>
                 </div>
             </div>
@@ -79,8 +79,8 @@
                         <br />
                         But by becoming a doctor, I can help my whole country</p>
                         <div class="mt-5">
-                            <button class="btn btn-accent"><a href="{{url('/about')}}">About Us</a></button>
-                            <button class="btn btn-outline btn-accent ml-5"><a href="{{url('/service')}}">Our Services</a></button>
+                            <button class="btn btn-accent text-white"><a href="{{url('/about')}}">About Us</a></button>
+                            <button class="btn btn-outline btn-accent ml-5 "><a class="hover:text-white" href="{{url('/service')}}">Our Services</a></button>
                         </div>
                 </div>
             </div>
@@ -109,8 +109,8 @@
                         <br />
                         But by becoming a doctor, I can help my whole country</p>
                         <div class="mt-5">
-                            <button class="btn btn-accent"><a href="{{url('/about')}}">About Us</a></button>
-                            <button class="btn btn-outline btn-accent ml-5"><a href="{{url('/service')}}">Our Services</a></button>
+                            <button class="btn btn-accent text-white"><a href="{{url('/about')}}">About Us</a></button>
+                            <button class="btn btn-outline btn-accent ml-5 "><a class="hover:text-white" href="{{url('/service')}}">Our Services</a></button>
                         </div>
                 </div>
             </div>

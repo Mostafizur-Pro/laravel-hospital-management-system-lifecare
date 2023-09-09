@@ -10,11 +10,16 @@
     @include('index/card')
 </div>
 
-<div class="mt-72">
+<!-- <div class="mt-32">
+    
+</div> -->
 
-</div>
+  
+    
 @include('index/our-medical')
 @include('index/our-services')
+@include('index/our-doctor')
+@include('index/our-pricing')
 
 
 </div>
