@@ -17,9 +17,10 @@ use Illuminate\Support\Facades\Route;
 
 
 
-// Route::get('/', [HomeController::class,'index'])->name('index');
-Route::get('/', [UserController::class,'index'])->name('index');
+Route::get('/', [HomeController::class,'index'])->name('index');
+// Route::get('/', [UserController::class,'index'])->name('index');
 Route::get('/service', [HomeController::class,'service'])->name('service');
+Route::get('/shop', [HomeController::class,'shop'])->name('shop');
 Route::get('/doctors', [HomeController::class,'doctors'])->name('doctors');
 Route::get('/departments', [HomeController::class,'departments'])->name('departments');
 Route::get('/about', [HomeController::class,'about'])->name('about');
@@ -48,9 +49,6 @@ Route::delete('/deleteUser/{id}', [UserController::class, 'deleteUser' ])->name(
 Route::get('/analytics', function () {
     return view('dashboard/analytics');
 });
-// Route::get('/edit-profile', function () {
-//     return view('dashboard/edit');
-// });
 
 
 // Display the edit profile page
@@ -58,3 +56,12 @@ Route::get('/edit-profile', [UserController::class, 'editProfile'])->name('editP
 
 // Update the user profile
 Route::put('/update-profile', [UserController::class, 'updateProfile'])->name('updateProfile');
+
+
+
+Route::get('/add-product', function () {
+    return view('dashboard/addProduct');
+});
+
+Route::post('/products', [ProductController::class, 'store'])->name('products.store');
+

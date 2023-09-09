@@ -2,7 +2,10 @@
 @section('title', 'Service - LifeCare')
 @section('content')
 
+<div>
 
-<h1>This is Service Page</h1>
+    @section('cover', 'Service')
+    @include('index/cover')
+</div>
 
 @endsection

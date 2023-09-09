@@ -1,8 +1,14 @@
 @extends('layouts.app')
+@section('title', 'About - LifeCare')
 @section('content')
 
+<div>
 
-<h1>This is About Page</h1>
-
+    @section('cover', 'About Us')
+    @include('index/cover')
+    @include('index/our-medical')
+    @include('index/fact')
+    @include('index/appointment')
+</div>
 
 @endsection

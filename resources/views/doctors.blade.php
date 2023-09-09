@@ -2,10 +2,11 @@
 @section('content')
 
 
+
 <div>
 
 
-    @section('cover', 'Departments')
+    @section('cover', 'Doctors')
     @include('index/cover')
 </div>
 

@@ -30,11 +30,13 @@ class AppServiceProvider extends ServiceProvider
     {
         //
         View::composer('*', function ($view) {
+            $data = null; // Set a default value for $data
             if (Session::has('loginId')) {
                 $userId = Session::get('loginId');
                 $data = User::find($userId); // Retrieve user data by the loginId from the session
-                $view->with('data', $data);
             }
+            $view->with('data', $data);
         });
+        
     }
 }
