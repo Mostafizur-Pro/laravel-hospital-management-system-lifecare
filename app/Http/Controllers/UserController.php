@@ -83,16 +83,6 @@ class UserController extends Controller
 
 
 
-    // public function index(){
-    //     $data = null; // Initialize the data variable
-    
-    //     if (Session::has('loginId')) {
-    //         $userId = Session::get('loginId');
-    //         $data = User::find($userId); // Retrieve user data by the loginId from the session
-    //     }
-    
-    //     return view('index', compact('data'));
-    // }
 
     public function deleteUser($id) {
         // Find the user by ID

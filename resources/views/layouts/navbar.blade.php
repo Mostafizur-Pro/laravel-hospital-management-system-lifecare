@@ -92,7 +92,7 @@
     </div>
   </div>
   @else
-  <div class="navbar-end">
+  <div class="navbar-end mr-10">
     <a href="{{ url('/login') }}">Login</a>
   </div>
   @endif

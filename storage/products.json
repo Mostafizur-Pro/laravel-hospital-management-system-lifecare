@@ -1,0 +1,122 @@
+[
+  {
+      "id": 1,
+      "name": "Sterile Gauze Pads",
+      "description": "Sterile gauze pads for wound dressing.",
+      "price": 5.99,
+      "stock": 100,
+      "image_url": "https://m.media-amazon.com/images/I/61UKmd0kp6L._AC_SL1500_.jpg"
+  },
+  {
+      "id": 2,
+      "name": "Surgical Gloves",
+      "description": "Latex surgical gloves for medical procedures.",
+      "price": 12.49,
+      "stock": 200,
+      "image_url": "https://technohealth.com.bd/wp-content/uploads/2023/01/Surgical-hand-gloves-price-in-Bangladesh-1.jpg"
+  },
+  {
+      "id": 3,
+      "name": "Medical Face Masks",
+      "description": "Disposable medical face masks for infection control.",
+      "price": 9.99,
+      "stock": 300,
+      "image_url": "https://m.media-amazon.com/images/I/71T9HeTs6qL.jpg"
+  },
+  {
+      "id": 4,
+      "name": "Digital Thermometer",
+      "description": "Digital thermometer for measuring body temperature.",
+      "price": 14.99,
+      "stock": 50,
+      "image_url": "https://images.deliveryhero.io/image/product-information-management/6326fde6800f5b3c481cea22.jpg?height=480"
+  },
+  {
+      "id": 5,
+      "name": "Wheelchair",
+      "description": "Foldable wheelchair for patient mobility.",
+      "price": 199.99,
+      "stock": 25,
+      "image_url": "https://images.deliveryhero.io/image/product-information-management/6326fde6800f5b3c481cea22.jpg?height=480"
+  },
+  {
+      "id": 6,
+      "name": "IV Infusion Set",
+      "description": "IV infusion set for administering fluids and medications.",
+      "price": 8.99,
+      "stock": 150,
+      "image_url": "https://images.deliveryhero.io/image/product-information-management/6326fde6800f5b3c481cea22.jpg?height=480"
+  },
+  {
+      "id": 7,
+      "name": "Hospital Bed",
+      "description": "Adjustable hospital bed for patient comfort.",
+      "price": 499.99,
+      "stock": 30,
+      "image_url": "https://images.deliveryhero.io/image/product-information-management/6326fde6800f5b3c481cea22.jpg?height=480"
+  },
+  {
+      "id": 8,
+      "name": "Blood Pressure Monitor",
+      "description": "Digital blood pressure monitor for accurate readings.",
+      "price": 29.99,
+      "stock": 100,
+      "image_url": "https://images.deliveryhero.io/image/product-information-management/6326fde6800f5b3c481cea22.jpg?height=480"
+  },
+  {
+      "id": 9,
+      "name": "First Aid Kit",
+      "description": "Comprehensive first aid kit for emergencies.",
+      "price": 24.99,
+      "stock": 75,
+      "image_url": "https://images.deliveryhero.io/image/product-information-management/6326fde6800f5b3c481cea22.jpg?height=480"
+  },
+  {
+      "id": 10,
+      "name": "Oxygen Concentrator",
+      "description": "Oxygen concentrator for patients with respiratory issues.",
+      "price": 349.99,
+      "stock": 20,
+      "image_url": "https://www.oxygencylinderbd.com/wp-content/uploads/2019/11/Oxygen-Concentrator.jpg"
+  },
+  {
+      "id": 11,
+      "name": "Medical Syringe (10 mL)",
+      "description": "Disposable medical syringe (10 mL) for injections.",
+      "price": 1.49,
+      "stock": 500,
+      "image_url": "https://www.oxygencylinderbd.com/wp-content/uploads/2019/11/Oxygen-Concentrator.jpg"
+  },
+  {
+      "id": 12,
+      "name": "Nitrile Examination Gloves",
+      "description": "Nitrile examination gloves for medical exams.",
+      "price": 9.99,
+      "stock": 400,
+      "image_url": "https://www.oxygencylinderbd.com/wp-content/uploads/2019/11/Oxygen-Concentrator.jpg"
+  },
+  {
+      "id": 13,
+      "name": "Hospital Scrubs",
+      "description": "Medical scrubs for healthcare professionals.",
+      "price": 29.99,
+      "stock": 100,
+      "image_url": "https://www.oxygencylinderbd.com/wp-content/uploads/2019/11/Oxygen-Concentrator.jpg"
+  },
+  {
+      "id": 14,
+      "name": "Surgical Masks (Pack of 50)",
+      "description": "Pack of 50 surgical masks for medical professionals.",
+      "price": 29.99,
+      "stock": 1000,
+      "image_url": "https://www.oxygencylinderbd.com/wp-content/uploads/2019/11/Oxygen-Concentrator.jpg"
+  },
+  {
+      "id": 15,
+      "name": "Orthopedic Walker",
+      "description": "Orthopedic walker for mobility assistance.",
+      "price": 79.99,
+      "stock": 40,
+      "image_url": "https://www.oxygencylinderbd.com/wp-content/uploads/2019/11/Oxygen-Concentrator.jpg"
+  }
+]

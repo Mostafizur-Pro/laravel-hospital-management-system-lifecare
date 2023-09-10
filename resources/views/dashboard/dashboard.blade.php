@@ -1,4 +1,5 @@
 @extends('dashboard.dashboardLayouts.dashboardApp')
+@section('title', 'Dashboard - LifeCare')
 @section('dashboard')
 
 

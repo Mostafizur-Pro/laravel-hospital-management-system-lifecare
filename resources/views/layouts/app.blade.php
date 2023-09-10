@@ -15,10 +15,10 @@
 </head>
 <body>
 
-@include('layouts.navbar');
+@include('layouts.navbar')
     
     @yield('content')
-    @include('layouts.footer');
+    @include('layouts.footer')
     
     
 </body>

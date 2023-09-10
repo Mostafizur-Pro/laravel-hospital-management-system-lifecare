@@ -1,8 +1,18 @@
 @extends('dashboard.dashboardLayouts.dashboardApp')
+@section('title', 'Add Product - LifeCare')
 @section('dashboard')
 <h1 class="text-3xl font-semibold mb-6">Create Product</h1>
+@if ($errors->any())
+        <div class="alert alert-danger bg-orange-200 ">
+          <h1>
+            @foreach ($errors->all() as $error)
+            <p>{{ $error }}</p>
+            @endforeach
+          </h1>
+        </div>
+        @endif
 
-<form method="POST" action="{{ route('products.store') }}" enctype="multipart/form-data" class="space-y-6">
+<form method="POST" action="{{ route('products') }}" enctype="multipart/form-data" class="space-y-6">
     @csrf
     <div class="flex flex-col space-y-1">
         <label for="title" class="text-gray-600">Title</label>
@@ -28,7 +38,8 @@
         <label for="image" class="text-gray-600">Image</label>
         <input type="file" class="input input-bordered" id="image" name="image" required>
     </div>
-
+    
+    <span class="text-red-400 ">@error('image') {{$message}} @endError</span>
     <div class="flex flex-col space-y-1">
         <label for="details" class="text-gray-600">Details</label>
         <textarea class="textarea textarea-bordered" id="details" name="details" rows="4" required></textarea>

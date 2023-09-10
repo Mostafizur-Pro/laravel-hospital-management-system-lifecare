@@ -1,8 +1,7 @@
 <div class="carousel w-full">
     <div id="slide1" class="carousel-item relative w-full">
 
-                <!--  -->
-        <div class="hero h-96" style="background-image: url(assets/home/slider/01.jpg);">
+        <div class="hero h-96" style="background-image: url(assets/home/slider/01.jpg)">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content  text-neutral-content">
                 <div class="mx-36"></div>
@@ -34,7 +33,7 @@
 
     <div id="slide2" class="carousel-item relative w-full">
           <!--  -->
-          <div class="hero h-96" style="background-image: url(assets/home/slider/02.jpg);">
+          <div class="hero h-96" style="background-image: url(assets/home/slider/02.jpg)">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content  text-neutral-content">
             <div class="-mr-36"></div>
@@ -64,7 +63,7 @@
         <!-- Slider 3 -->
     <div id="slide3" class="carousel-item relative w-full">
           <!--  -->
-          <div class="hero h-96" style="background-image: url(assets/home/slider/04.jpg);">
+          <div class="hero h-96" style="background-image: url(assets/home/slider/04.jpg)">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content  text-neutral-content">
                 <div class="mx-36"></div>
@@ -94,7 +93,7 @@
         <!-- Slider 4 -->
     <div id="slide4" class="carousel-item relative w-full">
           <!--  -->
-          <div class="hero h-96" style="background-image: url(assets/home/slider/03.jpg);">
+          <div class="hero h-96" style="background-image: url(assets/home/slider/03.jpg)">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content  text-neutral-content">
                 <div class="-mr-36"></div>

@@ -1,4 +1,5 @@
 @extends('dashboard.dashboardLayouts.dashboardApp')
+@section('title', 'Profile Edit - LifeCare')
 @section('dashboard')
 
 <div>
@@ -25,7 +26,7 @@
 
           <div class="mb-4">
             <label for="email" class="block text-gray-600 font-semibold">Email:</label>
-            <input type="email" name="email" id="editEmail" value="{{ $data->email }}" class="form-input input input-bordered input-accent" >
+            <input type="email" name="email" id="editEmail" value="{{ $data->email }}" class="form-input input input-bordered input-accent" disabled >
           </div>
 
           <!-- Add more input fields for other user details you want to edit -->

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class,'index'])->name('index');
 // Route::get('/', [UserController::class,'index'])->name('index');
 Route::get('/service', [HomeController::class,'service'])->name('service');
-Route::get('/shop', [HomeController::class,'shop'])->name('shop');
+Route::get('/shop', [ProductController::class,'shop'])->name('shop');
 Route::get('/doctors', [HomeController::class,'doctors'])->name('doctors');
 Route::get('/departments', [HomeController::class,'departments'])->name('departments');
 Route::get('/about', [HomeController::class,'about'])->name('about');
@@ -62,6 +63,17 @@ Route::put('/update-profile', [UserController::class, 'updateProfile'])->name('u
 Route::get('/add-product', function () {
     return view('dashboard/addProduct');
 });
+// Route::get('/all-products', function () {
+//     return view('dashboard/products/index');
+// });
 
-Route::post('/products', [ProductController::class, 'store'])->name('products.store');
+Route::post('/products', [ProductController::class, 'store'])->name('products');
+Route::get('/all-products', [ProductController::class, 'index'])->name('all-products');
 
+// Route::delete('/products/{product}', 'ProductController@destroy')->name('products.destroy');
+Route::delete('/products/{product}', [ProductController::class, 'destroy'])->name('products.destroy');
+
+
+
+Route::get('/products', [ProductController::class, 'index']);
+Route::get('/product/{id}', [ProductController::class, 'showProductDetails'])->name('product.details');

@@ -1,4 +1,5 @@
 @extends('dashboard.dashboardLayouts.dashboardApp')
+@section('title', 'Analytics - LifeCare')
 @section('dashboard')
 <div class="">
 <div class="bg-white p-6 rounded-lg shadow-xl">
